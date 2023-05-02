@@ -1,6 +1,7 @@
 
 import './App.css'
-import { MySketch } from './Sketch'
+import { ParticlesSketch } from './ParticlesSketch'
+//import { MySketch } from './Sketch'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <>
       <h1>Graphics</h1>
       <div className="card">
-        <MySketch />
+        <ParticlesSketch />
       </div>
       <p className="read-the-docs">
         made with p5.js
